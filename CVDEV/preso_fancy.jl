@@ -80,88 +80,148 @@ pluto-output>div>img {
 # ╔═╡ 62adfcd1-e110-40ae-a0bf-f2b2625b037e
 Title("Twitter 2.0", "The Twitter Acquisition from the Inside", "Stefan Wojcik, PhD", "Principal Data Scientist, National Grid Renewables") # TODO Add image
 
-# ╔═╡ 9bc0dc54-4e12-4d4d-b162-4ef738e6fd73
-md"# Twitter 1.0
-
-What was Twitter like before October 2022?
+# ╔═╡ 792bcba8-c21a-4eb4-9b2d-f4bb04fe2f09
+md"# Hi, I'm Stefan
 "
 
-# ╔═╡ a20a8ab6-2f1d-4118-8135-e68d7882b285
-begin
-	md"""
-	## Twitter sent us salad bowls
-	
+# ╔═╡ bf365f2b-1cb0-4b53-91a4-266252f81279
+html"""
 
-	$(Resource("https://twitter.com/i/status/1357102099235037185/video/1"))
-	"""
+<iframe src="https://giphy.com/embed/w2KHfIlI3V7bi" width="480" height="251" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/baby-make-austin-w2KHfIlI3V7bi">About Me</a></p>
+"""
+
+# ╔═╡ 4b0664fe-d5e9-44c7-80a9-78cd97d532fe
+md"# My Background
+
+- Grew up in Eau Claire
+- Studied Political Science, Philosophy, Spanish @UMD (no coding!)
+- MA from UWM, PhD from University of Colorado
+- Largely learned to code during my PhD (R -> Python -> Julia)
+- Computational Social Science Postdoctoral work at Northeastern and Harvard Universities 
+- Started at Twitter in 2019
+
+"
+
+# ╔═╡ 72658cb9-91c7-45b1-8341-ebde387ca8dc
+md"# Twitter 1.0
+
+It had its culty moments, but largely was a pleasant place to work. 
+"
+
+# ╔═╡ 9bc0dc54-4e12-4d4d-b162-4ef738e6fd73
+
+html"""
+
+<iframe src="https://giphy.com/embed/RJalj43Yiuuoh2i6V2" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/a24-midsommar-RJalj43Yiuuoh2i6V2">Kinda Culty</a></p>
+
+"""
+
+
+# ╔═╡ baa90322-3482-44f2-aee5-21e8ecc3a756
+md"# Problems 
+- Flattening usership, flat revenue, slow shipping of new features
+"
+
+# ╔═╡ 1cf48a6c-8794-4033-ad75-1a56b6cd5d26
+html"""
+<a href="/gif/silicon-valley-best-scene-pied-piper-servers-on-fire-3BmM2e" title="Silicon valley best scene: Pied Piper servers on Fire"><img src="https://i.makeagif.com/media/2-28-2017/3BmM2e.gif" alt="Silicon valley best scene: Pied Piper servers on Fire"></a><div style="font-size:11px;">This is fine <a href="/" title="This is fine"</div>
+"""
+
+# ╔═╡ 66a3a90a-c03f-44d4-b9e1-ead2ce134aea
+md"# Musk Rumors
+
+There were rumors that Musk might buy the company, even though nobody really wanted that to happen (including Musk?). There was some hope that he could bring positive change. 
+"
+
+# ╔═╡ 6b3891d4-fa7a-4a74-8935-e8b478959f52
+html"""
+<iframe src="https://giphy.com/embed/Mci51b8am0I1AdpjE8" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/snl-saturday-night-live-season-46-Mci51b8am0I1AdpjE8">via GIPHY</a></p>
+"""
+
+# ╔═╡ a5a1119a-5f9e-4b78-b7e5-4bc0157d8566
+md"# Forced Marriage and Takeover
+
+"
+
+# ╔═╡ 3f765a56-0c1d-40c7-a132-da7d56bc94df
+html"""
+<iframe src="https://giphy.com/embed/dCWf18B75hYK2xeNSD" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/laguarimba-tears-tear-guarimba-dCWf18B75hYK2xeNSD">via GIPHY</a></p>
+"""
+
+# ╔═╡ cb36af5a-6239-493d-a7f0-a22a574a59fe
+md"# Weird Times 
+
+- Rumors of 75% layoffs
+- People working all night, sleeping at the office
+- Rampant Sycophantism
+- The Goons
+"
+
+# ╔═╡ fffe505a-3851-4ba6-b376-f2a1c4e75248
+html"""
+<iframe src="https://giphy.com/embed/zebOFPFcgRdG8" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/maury-zebOFPFcgRdG8">via GIPHY</a></p>
+"""
+
+# ╔═╡ 7bddc007-a358-4dcc-93fa-73a4a3826cd6
+begin 
+	myurl = "https://i.imgur.com/7wfOQHw.jpeg"
+	md"# Weirder Times
+
+- Secret unionization efforts
+- Really bad ideas
+$(Resource(myurl, :width => 300))
+"
 end
 
-# ╔═╡ 8710669a-4850-4af9-b1f3-6796d9703457
-html"<hr>"
+# ╔═╡ b7ea0cac-6c20-4330-8398-95ed7042b9cd
+md"# The Grim Reaper Comes
 
-# ╔═╡ b3916731-9722-4613-896a-083c8e30634e
-LocalResource("./srqw.gif", :style=>"max-height: 80vh;")
+- We all got emails in the middle of night whether we were fired or could stay. My entire team was dissolved. 
+- We later found out Musk tried to fire people without paying even legal minimums for layoffs. 
+"
 
-# ╔═╡ 016dfe25-fe8e-432e-9435-f1c4064df090
-md"""
-# Hit rates
-
-Main question - **Optimizing hit times**. 
-
-Final requirement of any sort of search algorithm - system is measured, maximize probability of a particular readout
-
-However, we first solve the simpler problem of mean hit time, shortest hit time and success probability for the multiple variations of the walk.
-
-For the classical case, this poses no problem, as measurement does not disturb the system. In the quantum case however, we need to be a bit more careful.
+# ╔═╡ d75bd394-feac-4cd1-8480-0c7340365672
+html"""
+<iframe src="https://giphy.com/embed/8jzdgXpr9Po1a" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/grim-reaper-8jzdgXpr9Po1a">Grim Reaper</a></p>
 """
 
-# ╔═╡ 684e065f-ab4f-42d5-96e6-b4ba159e3c2b
-html"<hr>"
+# ╔═╡ 2e74d95e-a467-44c8-896f-7cdef4539e22
+begin 
+	ourl = "https://i.imgflip.com/7mubej.jpg"
+md"# The Purge
 
-# ╔═╡ 762aa4f9-0913-4f2f-add9-27681d6d1f42
-md"""
-## Measurement in the Quantum walk
-- Constantly measured walker will freeze dynamics - **Quantum Zeno effect**
-- **Solution:** Measure after every $\tau$ steps.
+- Sometime later, Musk grew paranoid that someone might sabotage from the inside
+- So in the middle of the night, he asked everyone to fill out a form saying they were 'hardcore' or quit. This became known as the 'push the button' form. 
 
-!!! warning "τ=1"
-	The $\tau = 1$ case reduces the discrete time quantum walk to a classical random walk
+$(Resource(ourl, :width => 300))
+"
+end
 
+# ╔═╡ 3e7aa2b3-d9e0-42f4-af03-fc02e6af6cd1
+md"# The Aftermath
+
+- Advertisers paused campaigns in late 2022, but have recently resumed spending on the platform 
+- There are currently ~1500 people at Twitter, compared to over 7000 who worked there before Nov 2022
+- Twitter is mostly functional, although some think it's not quite as good as it used to be 
+- Musk recently admitted that he fired too many people, and is trying to re-hire some
+"
+
+# ╔═╡ 06a4c7ca-e3f9-4765-a7b2-3ac6bffcefbf
+html"""
+<iframe src="https://giphy.com/embed/3o7btQFdgLUR3NWA1i" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reactionseditor-3o7btQFdgLUR3NWA1i">We all need therapy now</a></p>
 """
 
+# ╔═╡ 9fa3be17-ec66-4daf-b289-f82b8c2c0578
+md"# Thanks!
+
+- Tweet me at @stefanjwojcik
+- Email me at stefan.j.wojcik@gmail.com
+"
 
 # ╔═╡ e099a79a-33ef-43ad-8890-c134a1cbc053
 begin
 	centerslide = html"<h1></h1>"
 end;
-
-# ╔═╡ 9d801bc0-42b0-44bb-a2cd-9a43d7c80f17
-md"""$(centerslide) ### Multiple Walks"""
-
-# ╔═╡ cf279915-1766-4008-bbce-c96e1f2c0745
-md"""$(centerslide) ### Probability mass of walkers"""
-
-# ╔═╡ f06f0a1e-d112-4f0d-89e0-539c0ea5a9b6
-md"""$(centerslide) ### Multiple Walks"""
-
-# ╔═╡ 8eec20a2-dca6-4001-a9ee-19e5313c6893
-md"""$(centerslide) ### Probability mass of walkers"""
-
-# ╔═╡ 59b20b4b-4971-4172-a621-c1907ade0bf0
-centerslide
-
-# ╔═╡ 94602660-6f76-4110-b7a0-1b1be770d69f
-md"""
-$(centerslide) ### Probability of readout
-"""
-
-# ╔═╡ 0337a9eb-cdf0-4013-bba1-b2bcd7ec6f3f
-centerslide
-
-# ╔═╡ 9d673662-cbcb-470f-9148-c7f06a8091df
-md"""
-$(centerslide) ### Readout paths
-"""
 
 # ╔═╡ a7fb6d92-a9ad-481d-983b-b34eafcb03f3
 centerslide
@@ -188,7 +248,7 @@ PlutoUI = "~0.7.49"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.8.4"
+julia_version = "1.8.3"
 manifest_format = "2.0"
 project_hash = "99592f8dff6b601faf0337564667e398e1bfe2fb"
 
@@ -293,7 +353,7 @@ version = "4.5.0"
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-version = "1.0.1+0"
+version = "0.5.2+0"
 
 [[deps.Contour]]
 git-tree-sha1 = "d05d9e7b7aedff4e5b51a029dced05cfb6125781"
@@ -1216,21 +1276,26 @@ version = "1.4.1+0"
 # ╟─b3a75a22-3700-4a4a-ab13-d064715f2a08
 # ╟─504843f6-33ab-475c-9936-10992be19386
 # ╟─62adfcd1-e110-40ae-a0bf-f2b2625b037e
+# ╟─792bcba8-c21a-4eb4-9b2d-f4bb04fe2f09
+# ╟─bf365f2b-1cb0-4b53-91a4-266252f81279
+# ╟─4b0664fe-d5e9-44c7-80a9-78cd97d532fe
+# ╟─72658cb9-91c7-45b1-8341-ebde387ca8dc
 # ╟─9bc0dc54-4e12-4d4d-b162-4ef738e6fd73
-# ╟─a20a8ab6-2f1d-4118-8135-e68d7882b285
-# ╟─9d801bc0-42b0-44bb-a2cd-9a43d7c80f17
-# ╟─cf279915-1766-4008-bbce-c96e1f2c0745
-# ╟─f06f0a1e-d112-4f0d-89e0-539c0ea5a9b6
-# ╟─8eec20a2-dca6-4001-a9ee-19e5313c6893
-# ╟─59b20b4b-4971-4172-a621-c1907ade0bf0
-# ╟─94602660-6f76-4110-b7a0-1b1be770d69f
-# ╟─8710669a-4850-4af9-b1f3-6796d9703457
-# ╟─0337a9eb-cdf0-4013-bba1-b2bcd7ec6f3f
-# ╟─b3916731-9722-4613-896a-083c8e30634e
-# ╟─016dfe25-fe8e-432e-9435-f1c4064df090
-# ╟─684e065f-ab4f-42d5-96e6-b4ba159e3c2b
-# ╟─762aa4f9-0913-4f2f-add9-27681d6d1f42
-# ╟─9d673662-cbcb-470f-9148-c7f06a8091df
+# ╟─baa90322-3482-44f2-aee5-21e8ecc3a756
+# ╟─1cf48a6c-8794-4033-ad75-1a56b6cd5d26
+# ╟─66a3a90a-c03f-44d4-b9e1-ead2ce134aea
+# ╟─6b3891d4-fa7a-4a74-8935-e8b478959f52
+# ╟─a5a1119a-5f9e-4b78-b7e5-4bc0157d8566
+# ╟─3f765a56-0c1d-40c7-a132-da7d56bc94df
+# ╟─cb36af5a-6239-493d-a7f0-a22a574a59fe
+# ╟─fffe505a-3851-4ba6-b376-f2a1c4e75248
+# ╟─7bddc007-a358-4dcc-93fa-73a4a3826cd6
+# ╟─b7ea0cac-6c20-4330-8398-95ed7042b9cd
+# ╟─d75bd394-feac-4cd1-8480-0c7340365672
+# ╟─2e74d95e-a467-44c8-896f-7cdef4539e22
+# ╟─3e7aa2b3-d9e0-42f4-af03-fc02e6af6cd1
+# ╟─06a4c7ca-e3f9-4765-a7b2-3ac6bffcefbf
+# ╟─9fa3be17-ec66-4daf-b289-f82b8c2c0578
 # ╟─a7fb6d92-a9ad-481d-983b-b34eafcb03f3
 # ╟─63165326-7d47-4c24-b2d7-012ceb3b777a
 # ╟─e099a79a-33ef-43ad-8890-c134a1cbc053
